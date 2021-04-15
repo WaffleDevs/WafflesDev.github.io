@@ -1,3 +1,13 @@
 body {
   height: 100vh;
+  background-color: cyan
+}
+Button {
+  text-align: center;
+}
+Button2 {
+  text-align: center;
+}
+p {
+   text-align: center;
 }
