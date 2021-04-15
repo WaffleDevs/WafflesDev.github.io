@@ -2,11 +2,29 @@ body {
   height: 100vh;
   background-color: cyan
 }
-Button {
+.button {
   text-align: center;
 }
-Button2 {
-  text-align: center;
+.button1 {
+  background-color: white;
+  color: #ab1a1a;
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #c41a1a;
+  color: white;
+}
+
+.button2 {
+  background-color: white;
+  color: #1cba1c;
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #18db18;
+  color: white;
 }
 p {
    text-align: center;
