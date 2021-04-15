@@ -5,11 +5,11 @@ var timerRunning = false;
 
 loop()
 
-$('#b1')
+$( "#b1" )
   .html('End') // Try edit it...
   .on('click', () => end(false) + console.log('Count Paused:' + timerRunning))
 
-$('#b2')
+$( "#b2" )
   .html('Start') // Try edit it...
   .on('click', () => end(true) + console.log('Count Started:' + timerRunning))
 
