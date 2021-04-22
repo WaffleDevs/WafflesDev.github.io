@@ -1,3 +1,5 @@
+import $ from 'jquery'
+
 var time = 0;
 var timerRunning = false;
 var xTime = 1;
